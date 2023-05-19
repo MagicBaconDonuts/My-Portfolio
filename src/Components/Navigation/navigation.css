@@ -1,0 +1,30 @@
+.nav{
+    height: 150px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    align-items: center;
+    margin: auto;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+}
+.logo-container{
+    width:  80%;
+}
+.logo{
+    max-width: 9.5em;
+}
+.link{
+    text-decoration: none;
+    display: inline;
+    padding: 20px 20px;
+    font-size: x-large;
+}
+.link:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+    cursor: pointer;
+}
