@@ -1,0 +1,11 @@
+.about{
+    height: 100vh;
+    border-bottom: 1px solid grey;
+}
+.name{
+    font-weight: bold;
+    font-size: 50px;
+}
+.linked-in-icon{
+    max-width: 3rem;
+}
