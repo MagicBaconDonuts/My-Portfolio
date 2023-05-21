@@ -1,11 +1,37 @@
 .about{
-    height: 100vh;
+    min-height: 100vh;
     border-bottom: 1px solid grey;
+    
+}
+.about-me{ 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3rem;
+    max-width: 900px;
+    margin: auto;
 }
 .name{
     font-weight: bold;
     font-size: 50px;
+    padding-bottom: 20px;
+    color: rgb(0, 102, 153);
+}
+.about-me-view{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 15%;
+    gap: 1rem;
+}
+.text-color{
+    font-size: 150%;
+    font-weight: 500;
+    color: #333;
 }
 .linked-in-icon{
-    max-width: 3rem;
+    max-width: 4rem;
 }

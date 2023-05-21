@@ -1,27 +1,30 @@
 .nav{
+    max-height: 150px;
     height: 150px;
-    width: 70%;
+    /* margin-left: 15%; */
+    /* padding-right: 15%; */
     display: flex;
     justify-content: space-between;
-    padding-top: 0px;
     align-items: center;
-    margin: auto;
+    flex-wrap: wrap;
+}
+.logo-container{
+    /* margin-left: 15%; */
+    margin-left: 5rem!important;
 }
 .container{
+    margin-right: 5rem;
     display: flex;
     gap: 1rem;
 }
-.logo-container{
-    width:  80%;
-}
 .logo{
-    max-width: 9.5em;
+    max-width: 150px;
 }
 .link{
     text-decoration: none;
     display: inline;
-    padding: 20px 20px;
-    font-size: x-large;
+    padding: 10px 10px;
+    font-size: 1.25rem;
 }
 .link:hover{
     transform: scale(1.2);
