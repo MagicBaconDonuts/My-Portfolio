@@ -16,7 +16,7 @@
     font-weight: bold;
     font-size: 50px;
     padding-bottom: 20px;
-    color: rgb(0, 102, 153);
+    color: rgb(102,102,102);
 }
 .about-me-view{
     display: flex;
@@ -30,7 +30,10 @@
 .text-color{
     font-size: 150%;
     font-weight: 500;
-    color: #333;
+    color: white;
+}
+.link{
+    color: white;
 }
 .linked-in-icon{
     max-width: 4rem;
