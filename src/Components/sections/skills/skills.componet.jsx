@@ -1,4 +1,5 @@
 import { forwardRef } from 'react';
+import linkedIn from '../../images/linkedIn.png';
 import './skills.css';
 
 const Skills = forwardRef((props, ref) => {
@@ -9,7 +10,7 @@ const Skills = forwardRef((props, ref) => {
             </div>
             {/* <div>
                 <ul>
-                <li><img src={java} className='linked-in-icon'></img></li>
+                <li>HTML<img src={linkedIn} className='linked-in-icon'></img></li>
                 <li><img src={linkedIn} className='linked-in-icon'></img></li>
                 <li><img src={linkedIn} className='linked-in-icon'></img></li>
                 <li><img src={linkedIn} className='linked-in-icon'></img></li>

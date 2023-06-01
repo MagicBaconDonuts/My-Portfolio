@@ -8,6 +8,7 @@ const AboutMe = forwardRef((props, ref) => {
     <div className='about' ref={ref} >
         <div className='about-me'>
             <span className='name'>Ricardo Alatorre</span>
+            <span className='title'> Full Stack Java/React Developer</span>
             <span className='text-info text-color '>Hello I'm Ricardo Alatorre I became a full-stack Java and React Developer.
              Pushing to learn for more. Either trying to learn something new or improve on what I currently know. 
              Coding is my passion so no matter what i'll always do it. :)</span>

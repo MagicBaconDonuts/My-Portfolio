@@ -2,3 +2,11 @@
     height: 100vh;
     /* background-color: aqua; */
 }
+.section{
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(26, 27, 31);
+    padding-top: 2rem;
+    padding-left: 3rem;
+    max-width: 900px;
+}
