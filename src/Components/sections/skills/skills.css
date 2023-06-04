@@ -10,3 +10,19 @@
     padding-left: 3rem;
     max-width: 900px;
 }
+
+.testing{
+
+}
+.skills-list{
+    display: flex;
+}
+.format{
+    height: 128px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
+}
+ul {  
+    list-style-type: none;  
+    }  
