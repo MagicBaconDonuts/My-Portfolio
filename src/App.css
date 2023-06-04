@@ -12,6 +12,11 @@ a {
   color: black;
 }
 
+.section{
+  font-weight: bold;
+  font-size: 28px;
+  color: rgb(26, 27, 31);
+}
 
 /* .App {
   text-align: center;

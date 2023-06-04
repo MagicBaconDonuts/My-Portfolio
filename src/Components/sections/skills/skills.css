@@ -1,28 +1,27 @@
 .skills{
-    height: 100vh;
-    /* background-color: aqua; */
-}
-.section{
-    font-weight: bold;
-    font-size: 28px;
-    color: rgb(26, 27, 31);
-    padding-top: 2rem;
-    padding-left: 3rem;
-    max-width: 900px;
-}
-
-.testing{
-
+    min-height: 100vh;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-bottom: 1px solid grey;
 }
 .skills-list{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding-top: 2rem;
+    height: auto;
+    margin: auto;
+}
+.mi-1{
+    padding: 10px 10px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: auto;
 }
 .format{
     height: 128px;
     aspect-ratio: 3/2;
     object-fit: contain;
-    /* mix-blend-mode: color-burn; */
 }
-ul {  
-    list-style-type: none;  
-    }  
