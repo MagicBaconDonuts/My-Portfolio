@@ -1,7 +1,7 @@
 import './navigation.css'
 import portfolio from '../images/portfolio.png';
 
-const Navigation = ({aboutRef, skillsRef, projectsRef, contactRef}) => {
+const Navigation = ({aboutRef, skillsRef, projectsRef}) => {
 
     const scrollToSection = (elementRef) =>{
         elementRef.current.scrollIntoView({
@@ -20,7 +20,6 @@ const Navigation = ({aboutRef, skillsRef, projectsRef, contactRef}) => {
                         <li onClick={() => scrollToSection(aboutRef)} className="link" >About</li>
                         <li onClick={() => scrollToSection(skillsRef)} className="link">Skills</li>
                         <li onClick={() => scrollToSection(projectsRef)} className="link">Projects</li>
-                        <li onClick={() => scrollToSection(contactRef)} className="link">Contact</li>
                     </ul>
                 </div>
             </div>

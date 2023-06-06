@@ -25,10 +25,7 @@
 .about-me-view{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
     padding: 20px;
-    padding-top: 15%;
     gap: 1rem;
 }
 .text-color{
@@ -36,9 +33,23 @@
     font-weight: bold;
     color: rgb(26, 27, 31);
 }
+.text-contact{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.email{
+    height: 30px;
+    font-size: 18px;
+    color: rgb(118, 118, 121);
+    display: flex;
+    justify-content: center;
+}
 .link{
     color: white;
 }
-.linked-in-icon{
+.icons{
     max-width: 4rem;
 }
