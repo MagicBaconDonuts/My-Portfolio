@@ -1,5 +1,5 @@
 import { forwardRef } from 'react';
-import linkedIn from '../../images/linkedin.png';
+import linkedIn from '../../images/linked.png';
 import github from '../../images/github.png';
 import './about-me.css';
 
