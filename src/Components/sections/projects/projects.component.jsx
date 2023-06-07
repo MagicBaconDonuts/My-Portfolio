@@ -19,7 +19,7 @@ const Projects = forwardRef((props, ref) => {
         title: 'Video Game Review',
         description: 'Video Game Review App is a Full Stack Java App. Its purpose is to let users be able to review any games they’re playing. So they can give a rating and add a description to even say if the user has completed the game or not.'
     };
-    var videoGameReviewVideo = <div></div>;
+    var videoGameReviewVideo = <div><iframe width="1000" height="562.5" src="https://www.youtube.com/embed/LNXeD9zICvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>;
     var githubVideoGameReview= 'https://github.com/MagicBaconDonuts/VideoGameReview';
 
     return(
@@ -37,7 +37,7 @@ const Projects = forwardRef((props, ref) => {
                     <span className='format-text fm2'>Java Backend Project</span>
                 </div>
                 <div className='fp1'>
-                    <Popup trigger={videoGameButtonPopup} setTrigger={setVideoGameButtonPopup} project={videoGameReviewProject} video={chatSystemVideo} github={githubVideoGameReview}/>
+                    <Popup trigger={videoGameButtonPopup} setTrigger={setVideoGameButtonPopup} project={videoGameReviewProject} video={videoGameReviewVideo} github={githubVideoGameReview}/>
                     <a onClick={() => {setVideoGameButtonPopup(true)}}>
                         <img src={videoGamReview} className='format-picture' alt='video game review app'></img>
                     </a>
